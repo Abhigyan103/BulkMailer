@@ -8,7 +8,7 @@ import os
 
 class MailerService :
 
-    def __init__(self, email, password, SMTP_SERVER = "smtp.gmail.com", SMTP_PORT = 587) :
+    def __init__(self, email=None, password=None, SMTP_SERVER = "smtp.gmail.com", SMTP_PORT = 587) :
         if email is None :
             email = input("Enter login email: ")
         if password is None :
