@@ -10,8 +10,8 @@ python --version
 ## Setup and Installation
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/Abhigyan103/BulkMailer.git
+cd BulkMailer
 ```
 ## Create a virtual environment (recommended):
 
