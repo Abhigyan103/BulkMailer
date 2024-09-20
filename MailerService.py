@@ -28,7 +28,7 @@ class MailerService :
         finally:
             self.server.close()
 
-    def send_email(self,to_email, subject, messages_list, attachments_list=[]):
+    def send_email(self,to_email, subject, messages_list=[], attachments_list=[]):
         try:
             # Create a message object
             msg = MIMEMultipart()
