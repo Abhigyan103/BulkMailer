@@ -9,7 +9,7 @@ LOGIN_PASSWORD= None # Set a new App password from https://myaccount.google.com/
 
 def load_data(file_path):
     df = pd.read_excel(file_path)  # You can also use pd.read_csv for CSV files
-    return df
+    return df 
 
 if __name__ == "__main__":
     with MailerService.MailerService(LOGIN_EMAIL,LOGIN_PASSWORD) as mailer :
